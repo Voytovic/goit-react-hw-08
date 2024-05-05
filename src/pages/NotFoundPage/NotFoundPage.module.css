@@ -1,19 +1,19 @@
-.input-add-contact {
+.container {
   display: flex;
   flex-direction: column;
-  width: 300px;
-  margin-top: 3px;
+  align-items: center;
 }
 
-.input-only {
-  width: 300px;
-  height: 30px;
-  border-radius: 5px;
-  border: 1px solid black;
-  font-size: 15px;
+.img-not {
+  width: 500px;
+  border-radius: 10px;
 }
 
-.button-add {
+.title {
+  font-size: 50px;
+}
+
+.btn {
   margin-top: 10px;
   cursor: pointer;
   border: 2px solid rgb(90, 113, 205);
@@ -25,7 +25,7 @@
   font-size: 17px;
 }
 
-.button-add:hover {
+.btn:hover {
   border-color: rgb(139, 242, 242);
   color: rgb(139, 242, 242);
 }
